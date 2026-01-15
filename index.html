@@ -1,1 +1,76 @@
-hello
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hamza | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Optional: custom terminal colors -->
+  <style>
+    body {
+      background-color: #0a0a0a;
+    }
+  </style>
+</head>
+
+<body class="min-h-screen flex items-center justify-center text-green-400 font-mono">
+
+  <main class="w-full max-w-4xl border border-green-500 rounded-xl shadow-lg shadow-green-500/20 p-8">
+
+    <!-- Header -->
+    <header class="mb-8">
+      <p class="text-sm text-green-300">$ whoami</p>
+      <h1 class="text-4xl font-bold text-green-400 mt-2">
+        Hamza
+      </h1>
+      <p class="text-green-300 mt-1">
+        Full-Stack Developer & Security-Oriented Engineer
+      </p>
+    </header>
+
+    <!-- About -->
+    <section class="mb-8">
+      <p class="text-sm text-green-300">$ cat about.txt</p>
+      <p class="mt-3 text-green-400 leading-relaxed">
+        I am Hamza, a developer who loves building systems from the ground up.
+        I focus on low-level understanding, clean architecture, and security-aware design.
+        I enjoy working close to the terminal, where logic, performance, and control matter most.
+      </p>
+    </section>
+
+    <!-- Skills -->
+    <section class="mb-8">
+      <p class="text-sm text-green-300">$ ls skills/</p>
+
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mt-4">
+        <span class="border border-green-500 px-3 py-1 rounded">C / C++</span>
+        <span class="border border-green-500 px-3 py-1 rounded">Linux</span>
+        <span class="border border-green-500 px-3 py-1 rounded">Networking</span>
+        <span class="border border-green-500 px-3 py-1 rounded">Docker</span>
+        <span class="border border-green-500 px-3 py-1 rounded">Web Security</span>
+        <span class="border border-green-500 px-3 py-1 rounded">JavaScript</span>
+      </div>
+    </section>
+
+    <!-- Philosophy -->
+    <section class="mb-8">
+      <p class="text-sm text-green-300">$ cat philosophy.md</p>
+      <ul class="list-disc list-inside mt-3 space-y-1 text-green-400">
+        <li>Understand systems, don’t just use them</li>
+        <li>Security is a mindset, not a feature</li>
+        <li>Simple code &gt; clever code</li>
+        <li>Terminal first, UI second</li>
+      </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer class="pt-6 border-t border-green-500 text-sm text-green-300">
+      <p>$ echo "Built by Hamza"</p>
+      <p class="mt-1 text-green-500">© 2026 Hamza</p>
+    </footer>
+
+  </main>
+
+</body>
+</html>
